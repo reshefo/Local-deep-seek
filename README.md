@@ -18,4 +18,6 @@ This repository provides instructions for running the DeepSeek 1.5B parameters v
 
 Note: Using the .safetensors format instead of pickle files is recommended for security reasons.
 
-3. save your excel data in "data_path".
+3. save the example excel data in "data_path".
+
+4. run the code.
