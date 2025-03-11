@@ -17,3 +17,5 @@ This repository provides instructions for running the DeepSeek 1.5B parameters v
 2. Save all files in a specific directory (in the fallowing code it called "model_path").
 
 Note: Using the .safetensors format instead of pickle files is recommended for security reasons.
+
+3. save your excel data in "data_path".
