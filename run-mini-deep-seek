@@ -24,7 +24,8 @@ def analyze_and_answer(question, context_str, think=True):
     
     return generated_text
 
-def excel_to_narrative_oneline(data_path):
+# in this specific case (small tabular data and SML model) due to the attention mechanism the model gives more accurate result if the tabular data covert to text with context.  
+def excel_to_narrative_oneline(data_path): 
     df = pd.read_excel(data_path, sheet_name="Sheet1")
     
     # Group by company name
