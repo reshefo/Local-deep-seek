@@ -79,7 +79,7 @@ if __name__ == "__main__":
 
 # simpler execution
 questions = [
-    "What is the total material (material * tool number) for TechCore?" # false but close (chose the right company but not gives the right number
+    "What is the total material (material * tool number) for TechCore?"
 ]
 answer = analyze_and_answer(question, narrative, think=True)
 print(f"Q: {question}")
